@@ -36,4 +36,8 @@
 
 ### 프로그램 테스트
 1. http://localhost:8080/pub/swagger-ui.html 호출
-   1. 
+   1. [GET] /employee 를 클릭해 try it out >> Execute 를 실행해 데이터가 1건 등록되어 있는 것을 확인한다.(기본으로 한 건 등록되어 있다.)
+   2. [POST] /employee 를 클릭해 try it out >> Execute 를 실행해 임의의 데이터를 넣고 저장한다.
+   3. [GET] /employee 를 다시 실행해 데이터가 2건 등록되어 있는 것을 확인한다.
+2. http://localhost:8080/sub/swagger-ui.html 호출
+   1. [GET] /employee 를 클릭해 try it out >> Execute 를 실행해 pub서비스에서 방금 입력한 데이터 1건이 전송되어 온것을 확인한다.
